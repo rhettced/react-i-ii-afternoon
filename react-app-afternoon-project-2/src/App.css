@@ -1,0 +1,78 @@
+.App {
+  text-align: left;
+  
+}
+
+header{
+  background: rgb(46, 193, 241);
+  height: 100px;
+  line-height: 100px;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.background{
+  background: black;
+  display: flex;
+  
+}
+
+h1{
+  padding: 0px 40px ;
+  background: white;
+}
+
+p{
+  padding: 0px 42px;
+  background: white;
+}
+
+.movies{
+  padding: 0px 40px;
+}
+
+.cardContainer{
+  background: white;
+  margin: 70px 40px;
+  width: 95vw;
+}
+.footbuttons{
+  display: flex;
+  padding: 7px;
+  background: black;
+  justify-content: space-between;
+  box-sizing: border-box;
+
+}
+
+.middlesButtons{
+  width: 200px;
+  /* background: white; */
+  display: flex;
+  justify-content: center;
+}
+
+.blueButtons{
+  padding: 0px 15px;
+  margin: 5px;
+  border-radius: 7px;
+  background: rgb(46, 193, 241);
+  height: 25px;
+  width: 170px;
+}
+
+button{
+  background: black;
+  color: white;
+  box-shadow: 0;
+  font-weight: bolder;
+
+}
+
+.indexCounter{
+  position: relative;
+  left: 1130px;
+  top: 20px;
+  font-weight: bolder;
+  font-size: 25px;
+}
